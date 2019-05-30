@@ -102,23 +102,23 @@ public class OwnerServiceTest {
 
 	}
 	
-	@Test
-		public void testDeleteOwner() {
+	// @Test
+	// 	public void testDeleteOwner() {
 
-			long ID = 9;
+	// 		long ID = 9;
 			
-			try {
-				ownerService.delete(ID);
-			} catch (OwnerNotFoundException e) {
-				fail(e.getMessage());
-			}
+	// 		try {
+	// 			ownerService.delete(ID);
+	// 		} catch (OwnerNotFoundException e) {
+	// 			fail(e.getMessage());
+	// 		}
 			
-			try {
-				ownerService.findById(ID);
-				assertTrue(false);
-			} catch (OwnerNotFoundException e) {
-				assertTrue(true);	
-			}
-		}
+	// 		try {
+	// 			ownerService.findById(ID);
+	// 			assertTrue(false);
+	// 		} catch (OwnerNotFoundException e) {
+	// 			assertTrue(true);	
+	// 		}
+	// 	}
 
 }
