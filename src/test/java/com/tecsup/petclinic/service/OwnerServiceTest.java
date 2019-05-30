@@ -32,7 +32,7 @@ public class OwnerServiceTest {
 	@Autowired
 	private OwnerService ownerService;
 
-	//@Test
+	@Test
 	public void testFindOwnerById() {
 
 		long ID = 1;
@@ -53,7 +53,7 @@ public class OwnerServiceTest {
 	/**
 	 * 
 	 */
-	//@Test
+	@Test
 	public void testFindOwnerByLastName() {
 
 		String FIND_LAST_NAME = "Franklin";
@@ -67,7 +67,7 @@ public class OwnerServiceTest {
 	/**
 	 * 
 	 */
-	//@Test
+	@Test
 	public void testFindOwnerByCity() {
 
 		String CITY = "Madison";
@@ -84,7 +84,7 @@ public class OwnerServiceTest {
 	 *  entity this annotation :
 	 *  	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	 */
-	//@Test
+	@Test
 	public void testCreateOwner() {
 
 		String OWNER_LAST_NAME = "Sanchez";
@@ -102,7 +102,7 @@ public class OwnerServiceTest {
 
 	}
 	
-	//@Test
+	@Test
 		public void testDeleteOwner() {
 
 			long ID = 13;
