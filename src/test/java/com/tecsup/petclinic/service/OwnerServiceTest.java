@@ -105,7 +105,7 @@ public class OwnerServiceTest {
 	@Test
 		public void testDeleteOwner() {
 
-			long ID = 14;
+			long ID = 9;
 			
 			try {
 				ownerService.delete(ID);
